@@ -17,10 +17,7 @@
 
 | Página de inicio | Dashboard | Publicar objeto |
 |---|---|---|
-| ![inicio](<img width="1903" height="866" alt="image" src="https://github.com/user-attachments/assets/8e1ffc28-926c-4c44-8e69-b0faebc748f6" />
-) | ![dashboard](<img width="1897" height="853" alt="image" src="https://github.com/user-attachments/assets/c6db513f-5956-465e-a8e4-b3ab8fc397f9" />
-) | ![nuevo](<img width="1009" height="629" alt="image" src="https://github.com/user-attachments/assets/e3286678-e85f-4eeb-afa0-f3e219d39e16" />
-) | 
+| ![inicio](https://github.com/user-attachments/assets/8e1ffc28-926c-4c44-8e69-b0faebc748f6) | ![dashboard](https://github.com/user-attachments/assets/c6db513f-5956-465e-a8e4-b3ab8fc397f9) | ![nuevo](https://github.com/user-attachments/assets/e3286678-e85f-4eeb-afa0-f3e219d39e16) | 
 
 ---
 
