@@ -7,7 +7,7 @@
 
 > Plataforma privada para que organizaciones (universidades, empresas, colegios) gestionen objetos perdidos y encontrados de forma rápida y segura.
 
-**🌐 Demo en vivo:** [URL](http://144.225.147.89:3000)
+**🌐 Demo en vivo:** [FindIt](http://144.225.147.89:3000)
 
 ---
 
