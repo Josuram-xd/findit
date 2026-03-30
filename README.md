@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔍 FindIt — Foro de Objetos Perdidos
 
-## Getting Started
+[![CubePath](https://img.shields.io/badge/Desplegado%20en-CubePath-00C853?style=for-the-badge&logo=cloud&logoColor=white)](https://TU_URL_AQUI)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
+[![Supabase](https://img.shields.io/badge/Supabase-Database-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com)
 
-First, run the development server:
+> Plataforma privada para que organizaciones (universidades, empresas, colegios) gestionen objetos perdidos y encontrados de forma rápida y segura.
+
+**🌐 Demo en vivo:** [TU_URL_DE_CUBEPATH_AQUI](#)
+
+---
+
+## 📸 Capturas
+
+> *(Agrega aquí capturas o un GIF de la app — puedes usar https://imgur.com para subir las imágenes y pegar el enlace)*
+
+| Página de inicio | Dashboard | Publicar objeto |
+|---|---|---|
+| ![inicio](URL_CAPTURA_INICIO) | ![dashboard](URL_CAPTURA_DASHBOARD) | ![nuevo](URL_CAPTURA_NUEVO) |
+
+---
+
+## 🧩 El problema que resuelve
+
+En universidades, empresas y colegios, los objetos perdidos se reportan por grupos de WhatsApp, carteles físicos o correos masivos — métodos caóticos, ineficientes y sin seguimiento.
+
+**FindIt** centraliza todo en un foro privado por organización donde:
+- Cualquier miembro puede reportar un objeto perdido o encontrado
+- Se adjuntan fotos para identificar fácilmente
+- Se marca como resuelto cuando el objeto es recuperado
+- El contacto del publicador es visible para coordinarse directamente
+
+---
+
+## ✨ Funcionalidades
+
+- 🔐 **Autenticación** — Registro e inicio de sesión con dos roles: `persona` y `organización`
+- 🏢 **Organizaciones privadas** — Cada organización tiene su propio foro
+- 📋 **Feed de objetos** — Listado de objetos perdidos y encontrados con filtros por estado y categoría
+- 📷 **Fotos** — Subida de imágenes adjuntas a cada publicación
+- ✅ **Resolución** — Marcar y desmarcar objetos como resueltos
+- 👤 **Perfil editable** — Nombre, foto de perfil y método de contacto configurable (correo, WhatsApp, enlace)
+- 📬 **Contacto inteligente** — Detecta automáticamente si el contacto es un correo, número de WhatsApp o URL
+
+---
+
+## 🛠️ Stack tecnológico
+
+| Tecnología | Uso |
+|---|---|
+| **Next.js 14** | Framework frontend con App Router |
+| **Supabase** | Base de datos PostgreSQL + Auth + Storage |
+| **TypeScript** | Tipado estático |
+| **Tailwind CSS** | Estilos (inline styles + variables CSS) |
+| **CubePath** | Hosting y despliegue de la aplicación |
+
+---
+
+## ☁️ Cómo se usó CubePath
+
+El proyecto está desplegado íntegramente en **CubePath**, aprovechando:
+
+- **Servidor de aplicación** para correr el servidor de Next.js en producción
+- **Variables de entorno** configuradas desde el panel de CubePath para las credenciales de Supabase (`NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_ANON_KEY`)
+- **Deploy continuo** desde el repositorio de GitHub
+
+CubePath permitió tener el entorno de producción listo en minutos, sin configurar infraestructura manualmente.
+
+---
+
+## 🚀 Correr localmente
 
 ```bash
+# 1. Clona el repositorio
+git clone https://github.com/Josuram-xd/findit.git
+cd findit
+
+# 2. Instala dependencias
+npm install
+
+# 3. Configura las variables de entorno
+cp .env.example .env.local
+# Edita .env.local con tus credenciales de Supabase
+
+# 4. Corre el servidor de desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Variables de entorno necesarias
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```env
+NEXT_PUBLIC_SUPABASE_URL=tu_url_de_supabase
+NEXT_PUBLIC_SUPABASE_ANON_KEY=tu_anon_key
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🗃️ Estructura de la base de datos
 
-To learn more about Next.js, take a look at the following resources:
+```
+profiles       — Usuarios (nombre, tipo, contacto, avatar_url)
+organizations  — Organizaciones (nombre, descripción, dirección)
+memberships    — Relación usuario ↔ organización
+items          — Objetos perdidos/encontrados (título, descripción, estado, categoría, imagen, resuelto)
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👤 Autores
 
-## Deploy on Vercel
+**Josuram** — [@Josuram-xd](https://github.com/Josuram-xd)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Proyecto creado para la **Hackatón CubePath 2026** 🏆
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+*Hecho con ☕ y muchas ganas de ganar*
