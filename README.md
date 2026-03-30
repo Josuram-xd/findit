@@ -13,7 +13,6 @@
 
 ## 📸 Capturas
 
-> *(Agrega aquí capturas o un GIF de la app — puedes usar https://imgur.com para subir las imágenes y pegar el enlace)*
 
 | Página de inicio | Dashboard | Publicar objeto |
 |---|---|---|
