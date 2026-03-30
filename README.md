@@ -110,6 +110,7 @@ items          — Objetos perdidos/encontrados (título, descripción, estado, 
 ## 👤 Autores
 
 **Josuram** — [@Josuram-xd](https://github.com/Josuram-xd)
+**jn_cipher** — [@jn_cipher](https://github.com/Juanescuaran2041)
 
 Proyecto creado para la **Hackatón CubePath 2026** 🏆
 
