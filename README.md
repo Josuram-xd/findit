@@ -17,7 +17,7 @@
 
 | Página de inicio | Dashboard | Publicar objeto |
 |---|---|---|
-| ![inicio](https://github.com/user-attachments/assets/8e1ffc28-926c-4c44-8e69-b0faebc748f6) | ![dashboard](https://github.com/user-attachments/assets/c6db513f-5956-465e-a8e4-b3ab8fc397f9) | ![nuevo](https://github.com/user-attachments/assets/e3286678-e85f-4eeb-afa0-f3e219d39e16) | 
+| ![inicio](https://github.com/user-attachments/assets/8e1ffc28-926c-4c44-8e69-b0faebc748f6) | ![dashboard](https://github.com/user-attachments/assets/c6db513f-5956-465e-a8e4-b3ab8fc397f9) | ![nuevo](https://github.com/user-attachments/assets/51546b43-338e-4242-8ae9-54f01506722f) |
 
 ---
 
