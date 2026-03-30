@@ -90,8 +90,8 @@ npm run dev
 ### Variables de entorno necesarias
 
 ```env
-NEXT_PUBLIC_SUPABASE_URL=tu_url_de_supabase
-NEXT_PUBLIC_SUPABASE_ANON_KEY=tu_anon_key
+NEXT_PUBLIC_SUPABASE_URL=https://ketpuixlckofirkyrphl.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtldHB1aXhsY2tvZmlya3lycGhsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ4OTI2MjcsImV4cCI6MjA5MDQ2ODYyN30.2UgPafKUTWhlLtUsZr-gU_9bupe9eZIIWV4o1CcvksY
 ```
 
 ---
