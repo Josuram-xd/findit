@@ -64,12 +64,12 @@ En universidades, empresas y colegios, los objetos perdidos se reportan por grup
 
 El proyecto FindIt está desplegado íntegramente en CubePath usando una Virtual Machine (VPS gp.nano). El proceso fue:
 
-**Creación de la VM:** Se creó un servidor Ubuntu 25.04 desde el panel de CubePath
-**Configuración del entorno:** Se instaló Node.js 20 y Git directamente en el servidor
-**Deploy de la aplicación:**  Se clonó el repositorio de GitHub, se instalaron las dependencias y se compiló el proyecto con npm run build
-**Variables de entorno:** Las credenciales de Supabase se configuraron directamente en el servidor via .env.local
-**Gestión del proceso:** Se usó PM2 para mantener la app corriendo de forma continua y configurada para reiniciarse automáticamente si el servidor se reinicia
-**Acceso público:** Se abrió el puerto 3000 con UFW para hacer la app accesible desde internet
+- **Creación de la VM:** Se creó un servidor Ubuntu 25.04 desde el panel de CubePath
+- **Configuración del entorno:** Se instaló Node.js 20 y Git directamente en el servidor
+- **Deploy de la aplicación:**  Se clonó el repositorio de GitHub, se instalaron las dependencias y se compiló el proyecto con npm run build
+- **Variables de entorno:** Las credenciales de Supabase se configuraron directamente en el servidor via .env.local
+- **Gestión del proceso:** Se usó PM2 para mantener la app corriendo de forma continua y configurada para reiniciarse automáticamente si el servidor se reinicia
+- **Acceso público:** Se abrió el puerto 3000 con UFW para hacer la app accesible desde internet
 
 La app corre en http://144.225.147.89:3000/ y está activa 24/7 gracias a la infraestructura de CubePath.
 
