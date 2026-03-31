@@ -18,6 +18,10 @@
 |---|---|---|
 | ![inicio](https://github.com/user-attachments/assets/8e1ffc28-926c-4c44-8e69-b0faebc748f6) | ![dashboard](https://github.com/user-attachments/assets/c6db513f-5956-465e-a8e4-b3ab8fc397f9) | ![nuevo](https://github.com/user-attachments/assets/51546b43-338e-4242-8ae9-54f01506722f) |
 
+
+| Inicio de Sesion | Perfil | Buscar Organizacion |
+|---|---|---|
+| ![inicioSesion](https://github.com/user-attachments/assets/8e1ffc28-926c-4c44-8e69-b0faebc748f6) | ![Perfil](https://github.com/user-attachments/assets/ba9b9849-9407-4acb-9e40-30be3eff673b) | ![Organizacion](https://github.com/user-attachments/assets/099f1289-41d5-4948-9e9f-24a1cdd94c83) |
 ---
 
 ## 🧩 El problema que resuelve
